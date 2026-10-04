@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+    
+    /* Official Ocean Pearl Travel Palette */
+    --ocean-navy: #123451;
+    --pearl-gold: #C49A52;
+    --pearl-ivory: #F8F4EC;
+    --tropical-teal: #087E8B;
+    --forest-green: #385B45;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--pearl-ivory);
+    color: var(--ocean-navy);
+  }
+
+  h1, h2, h3, .font-serif-luxury {
+    font-family: var(--font-serif);
+  }
+}
+
+.bg-dot-grid-light {
+  background-image: radial-gradient(rgba(18, 52, 81, 0.08) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.bg-dot-grid-navy {
+  background-image: radial-gradient(rgba(248, 244, 236, 0.12) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #DFB770 0%, #C49A52 50%, #9B7532 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.luxury-gold-button {
+  background-color: #C49A52;
+  color: #FFFFFF;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.luxury-gold-button:hover {
+  background-color: #B58A42;
+  box-shadow: 0 4px 14px 0 rgba(196, 154, 82, 0.35);
+}
+
+.luxury-card-shadow {
+  box-shadow: 0 4px 20px -2px rgba(18, 52, 81, 0.06), 0 2px 6px -1px rgba(18, 52, 81, 0.04);
+}
+
+.luxury-card-shadow:hover {
+  box-shadow: 0 10px 25px -3px rgba(18, 52, 81, 0.1), 0 4px 10px -2px rgba(18, 52, 81, 0.06);
+}

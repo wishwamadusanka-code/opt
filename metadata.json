@@ -1,0 +1,6 @@
+{
+  "name": "Ocean Pearl Travel - Sri Lankan Adventures",
+  "description": "Unforgettable journeys across Sri Lanka. Tailor-made private chauffeur trips, wildlife safaris, misty hill country, and cultural heritage crafted by SLTDA approved local experts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
